@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'model/contact_model.dart';
-import 'provider/contact.dart';
+import '../model/contact_model.dart';
+import '../provider/contact.dart';
 
 class AltaContactPage extends StatelessWidget {
   const AltaContactPage({Key? key}) : super(key: key);
@@ -35,7 +35,23 @@ class AltaContactPage extends StatelessWidget {
               );
             },
             child: const Text("Tambah Data Contact"),
-          )
+          ),
+
+          /// TODO EXAMPLE Contact Form :
+          /// FORM
+          /// BUTTON
+          ///
+          // ElevatedButton(
+          //   onPressed: () {
+          //     contactProvider.addContact(
+          //       ContactModel(
+          //         name: get data from FORM INPUT,
+          //         phoneNumber: get data from FORM INPUT,
+          //       ),
+          //     ),
+          //   },
+          //   child: const Text("Tambah Data Contact"),
+          // ),
         ],
       ),
     );

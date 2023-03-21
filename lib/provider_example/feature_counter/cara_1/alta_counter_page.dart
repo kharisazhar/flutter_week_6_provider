@@ -49,9 +49,14 @@ class AltaCounterPage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
+          // tidak ada setState({}) x
+
           // _counter.value = _counter.value +1 ;
           /// TODO STEP 3 :
           _counter.value++;
+
+          /// EXAMPLE LIST :
+          _contacts.value.add('Testing');
         },
         tooltip: 'Increment',
         child: const Icon(Icons.add),
