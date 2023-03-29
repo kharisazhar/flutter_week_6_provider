@@ -21,6 +21,6 @@ class MyApp extends StatelessWidget {
         ),
 
         /// TODO : Change Root Here
-        home:  AltaContactMain());
+        home:  const AltaContactMain());
   }
 }
